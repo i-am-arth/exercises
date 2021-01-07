@@ -1,0 +1,55 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #04293f;
+}
+
+@keyframes planet {
+    from {transform: rotate(0deg) rotate(0deg)}
+    to {transform: rotate(360deg) rotate(0deg)}
+}
+
+.mercury {
+    animation: planet 4s linear infinite;
+    transform-origin: center;
+}
+
+.venus {
+    animation: planet 5s linear infinite;
+    transform-origin: center;
+}
+
+.earth {
+    animation: planet 9s linear infinite;
+    transform-origin: center;
+}
+
+.mars {
+    animation: planet 15s linear infinite;
+    transform-origin: center;
+}
+
+.jupiter {
+    animation: planet 19s linear infinite;
+    transform-origin: center;
+}
+
+.saturn {
+    animation: planet 20s linear infinite;
+    transform-origin: center;
+}
+
+.uranus {
+    animation: planet 25s linear infinite;
+    transform-origin: center;
+}
+
+.neptune {
+    animation: planet 28s linear infinite;
+    transform-origin: center;
+}
+
+.pluto {
+    animation: planet 32s linear infinite;
+    transform-origin: center;
+}
